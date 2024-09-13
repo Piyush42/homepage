@@ -8,6 +8,6 @@ twitter_username: johndoe   # your Twitter username
 github_username:  yourusername  # your GitHub username
 
 # Build settings
-theme: jekyll-theme-minima                # theme used for your site
+theme: minima               # theme used for your site
 plugins:
   - jekyll-feed             # example plugin
