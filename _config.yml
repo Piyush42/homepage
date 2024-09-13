@@ -1,13 +1,41 @@
 title: My Website
-email: 42piyush@gmail.com
+author:
+  name: Your Name  # Add this line
+  email: 42piyush@gmail.com
 description: > 
   This is my personal website hosted on GitHub Pages.
-baseurl: "/homepage"               # the subpath of your site, e.g., /blog
-url: "https://piyush42.github.io" # the base hostname & protocol for your site
+baseurl: "/homepage"
+url: "https://piyush42.github.io"
 twitter_username: johndoe
-github_username: yourusername
+github_username: piyush42  # Changed to match your GitHub username
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+# Additional settings
+show_excerpts: true  # Add this line to show post excerpts on the home page
+google_analytics: # Add this line and your tracking ID if you use Google Analytics
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment this and add the path to the pages in
+# order as they should show up
+# header_pages:
+#   - about.md
+#   - portfolio.md
+#   - contact.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
