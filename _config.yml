@@ -2,12 +2,11 @@ title: My Website           # The title of your site
 email: 42piyush@gmail.com # Your email address
 description: >              # A description of your site
   This is my personal website hosted on GitHub Pages.
-baseurl: "https://piyush42.github.io/homepage/"               # the subpath of your site, e.g., /blog
-url: "https://piyush42.github.io/homepage/" # the base hostname & protocol for your site
+baseurl: "/homepage"               # the subpath of your site, e.g., /blog
+url: "https://piyush42.github.io"
 twitter_username: johndoe   # your Twitter username
 github_username:  yourusername  # your GitHub username
 
 # Build settings
 theme: minima               # theme used for your site
-plugins:
-  - jekyll-feed             # example plugin
+plugins: - jekyll-feed             # example plugin
