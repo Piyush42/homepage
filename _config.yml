@@ -9,6 +9,17 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+# Navigation links
+nav_links:
+  - name: "Home"
+    link: "/"
+  - name: "About"
+    link: "/about"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Essays"
+    link: "/essays"
+
 # Exclude from processing
 exclude:
   - Gemfile
