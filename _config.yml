@@ -4,7 +4,8 @@ baseurl: "/homepage"
 url: "https://piyush42.github.io"
 
 # Build settings
-remote_theme: jekyll/minima
+# remote_theme: jekyll/minima
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
